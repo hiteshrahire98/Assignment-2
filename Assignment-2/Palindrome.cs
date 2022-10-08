@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 //namespace Assignment_2
 //{
 
-//    public class Palindrome
+//    public class Palindrome 
 //    {
-//        //Find out if the given number is palindrome or not. (16461)..
+//        //Find out if the given number is palindrome or not(16461)..
 
 //        static void Main(string[] args)
 //        {
