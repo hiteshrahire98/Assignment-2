@@ -12,13 +12,18 @@ namespace Assignment_2
 
         static void Main(string[] args)
         {
-            int a, b;
+            int a, b,c=1;
             Console.WriteLine("Enter the value of a:");
             a=Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Enter the value of b:");
             b=Convert.ToInt32(Console.ReadLine());
 
+            for (int i = 1; i <= b; i++)
+            {
+                c = c * a;
+            }
+            Console.WriteLine($"a^b is{c}");
         }
     }
 }
